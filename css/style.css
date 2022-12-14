@@ -1,0 +1,96 @@
+html {
+	background-color: #d4cfc2;
+}
+
+h1, h2 {
+	color: #413019;
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+
+}
+
+P {
+	color: #907c62;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+}
+
+hr {
+	color: #413019;
+}
+
+#per {
+
+	top: 200px;
+	font-size: 15px;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+
+.per {
+	width: 600px;
+	border-radius: 5px; 
+	margin: 0px;
+	margin-left: 320px;
+	height: 400px;
+}
+
+body {
+	margin: 50px;
+}
+
+#container-0 {
+	background-color: #b3a992;
+	border-radius: 5px;
+	padding: 5px;
+	box-shadow: 0 0 2rem black;
+}
+
+#osten {
+	
+	top: 400px;
+	left: 360px;
+}
+
+.osten2 {
+	width: 700px;
+	margin-left: 270px;
+	margin-bottom: 20px;
+	margin-top: 20px ;
+	border-radius: 5px;
+}
+
+.varg {
+	margin-left: 500px;
+	margin-bottom: 20px;
+	margin-top: 20px ;
+	border-radius: 5px;
+	width: 200px;
+	
+}
+
+@media screen and (max-width: 600px) {
+	.varg {
+	margin-left: 70px;
+	margin-bottom: 20px;
+	margin-top: 20px ;
+	border-radius: 5px;
+	width: 200px;
+	
+}
+.osten2 {
+	width: 300px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px ;
+	border-radius: 5px;
+}
+
+.per {
+	width: 280px;
+	border-radius: 5px; 
+	margin: 0px;
+	margin-left: 25px;
+	height: 200px;
+}
+}
